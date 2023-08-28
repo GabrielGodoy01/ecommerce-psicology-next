@@ -5,7 +5,7 @@ import butterfly from './assets/butterfly.png'
 
 function Feature({ icon, text } : { icon: StaticImageData, text: string }) {
     return (
-        <div className="flex items-center justify-center relative bg-azulescuro rounded-2xl py-8 md:py-10 px-2">
+        <div className="flex items-center justify-center relative bg-azulescuro rounded-2xl py-8 md:py-20 px-2">
             <div className="w-16 h-16 sm:w-18 sm:h-18 lg:w-24 lg:h-24 bg-white rounded-full absolute top-0 left-20 -translate-y-1/2 flex items-center justify-center">
                 <Image className="p-2 w-full h-full object-contain"
                     src={icon}
