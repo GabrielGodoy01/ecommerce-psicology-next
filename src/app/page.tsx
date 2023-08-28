@@ -3,6 +3,8 @@ import { Main } from "./components/main/main";
 import { EbookContent } from "./components/ebookcontent/ebookcontent";
 import { Profissional } from "./components/profissional/profissional";
 import { Contact } from "./components/contact/contact";
+import Link from "next/link";
+
 
 export default function Landing() {
   return (
@@ -10,16 +12,16 @@ export default function Landing() {
       <div className="flex items-center justify-center w-full h-screen bg-azulclaro">
         <Main />
       </div>
-      <div className="flex items-start justify-center w-full h-screen bg-white pt-20 pb-20">
+      <div className="flex items-center justify-center w-full lg:h-screen bg-white">
         <ForYou />
       </div>
-      <div className="flex items-center justify-center w-full h-screen bg-white">
+      <div id="section-1" className="flex items-center justify-center w-full lg:h-screen bg-azulclaro">
         <EbookContent />
       </div>
-      <div className="flex items-center justify-center bg-white">
+      <div className="flex items-center justify-center w-full bg-white">
         <Profissional />
       </div>
-      <div className="flex items-center justify-center bg-azulclaro w-full">
+      <div className="flex items-center justify-center w-full  bg-azulclaro">
         <Contact />
       </div>
     </div>
