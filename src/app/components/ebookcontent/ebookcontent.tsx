@@ -22,7 +22,7 @@ export function EbookContent() {
                     <li>Now this is a story all about how, my life got flipped-turned upside down</li>
                     <li>Now this is a story all about how, my life got flipped-turned upside down</li>
                 </ul>
-                <button className="bg-azulescuro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white">Clique e comece sua jornada!</button>
+                <button className="bg-azulescuro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white hover:shadow-lg">Baixe o Ebook</button>
             </div>
         </div>
     )
