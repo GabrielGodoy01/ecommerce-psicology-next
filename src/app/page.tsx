@@ -9,28 +9,30 @@ import { Footer } from "./components/footer/footer";
 
 export default function Landing() {
   return (
-    <div>
-      <div className="flex items-center justify-center w-full h-screen bg-azulclaro">
-        <Main />
+    <main>
+      <div>
+        <div className="flex items-center justify-center w-full h-screen bg-azulclaro">
+          <Main />
+        </div>
+        <div className="flex items-center justify-center w-full lg:h-screen bg-white">
+          <ForYou />
+        </div>
+        <div id="section-1" className="flex items-center justify-center w-full lg:h-screen bg-azulclaro">
+          <EbookContent />
+        </div>
+        <div className="flex items-center justify-center w-full bg-white">
+          <Profissional />
+        </div>
+        <div className="flex items-center justify-center w-full bg-azulclaro">
+          <Contact />
+        </div>
+        <div className="flex items-center justify-center w-full bg-white">
+          <Promotion />
+        </div>
+        <div className="flex items-center justify-center w-full bg-azulclaro">
+          <Footer />
+        </div>
       </div>
-      <div className="flex items-center justify-center w-full lg:h-screen bg-white">
-        <ForYou />
-      </div>
-      <div id="section-1" className="flex items-center justify-center w-full lg:h-screen bg-azulclaro">
-        <EbookContent />
-      </div>
-      <div className="flex items-center justify-center w-full bg-white">
-        <Profissional />
-      </div>
-      <div className="flex items-center justify-center w-full bg-azulclaro">
-        <Contact />
-      </div>
-      <div className="flex items-center justify-center w-full bg-white">
-        <Promotion />
-      </div>
-      <div className="flex items-center justify-center w-full bg-azulclaro">
-        <Footer />
-      </div>
-    </div>
+    </main>
   )
 }
