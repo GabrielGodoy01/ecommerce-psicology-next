@@ -4,6 +4,14 @@ import { useEffect, useState } from "react";
 
 export function CountdownTimer({ targetDate } : { targetDate: Date }) {
     const [timeLeft, setTimeLeft] = useState(getTimeLeft());
+  
+    useEffect(() => {
+      const timer = setInterval(() => {
+        setTimeLeft(getTimeLeft());
+      }, 1000);
+  
+      return () => clearInterval(timer);
+    }, []);
 
   function getTimeLeft() {
     const now = new Date();
@@ -15,14 +23,6 @@ export function CountdownTimer({ targetDate } : { targetDate: Date }) {
 
     return { days, hours, minutes, seconds };
   }
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(getTimeLeft());
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
 
   return (
     <div>
