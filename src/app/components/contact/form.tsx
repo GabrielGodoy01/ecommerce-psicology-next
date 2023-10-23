@@ -2,16 +2,16 @@
 
 import emailjs from '@emailjs/browser';
 
-export async function Form() {
+export function Form() {
     const sendEmail = (e: any) => {
         e.preventDefault();
 
         emailjs.sendForm('service_9icma28', 'template_viw52ih', e.target, 'lJdat-GvdsI9_6oxP')
             .then(() => {
-            console.log('Email enviado com sucesso!');
+                alert('Email enviado!');
             })
             .catch((error) => {
-            console.error('Erro ao enviar o email:', error);
+                alert('Erro ao enviar email: ' + error);
             });
     }
 

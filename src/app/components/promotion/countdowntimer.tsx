@@ -2,8 +2,15 @@
 
 import { useEffect, useState } from "react";
 
+interface TimeLeft {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
+
 export function CountdownTimer({ targetDate } : { targetDate: Date }) {
-    const [timeLeft, setTimeLeft] = useState(getTimeLeft());
+    const [timeLeft, setTimeLeft] = useState<TimeLeft>();
   
     useEffect(() => {
       const timer = setInterval(() => {
@@ -29,19 +36,19 @@ export function CountdownTimer({ targetDate } : { targetDate: Date }) {
         <h1 className="font-bold text-white text-center lg:text-3xl xl:text-4xl text-xl md:text-2xl pb-4">ENCERRA EM:</h1>
         <div className="flex w-full justify-between max-w-[90%] text-white lg:text-3xl xl:text-4xl text-xl md:text-2xl mx-auto text-center">
             <div className="flex flex-col items-center">
-                <p className="font-bold">{timeLeft.days}</p>
+                <p className="font-bold">{timeLeft?.days}</p>
                 <p>dias</p>
             </div>
             <div className="flex flex-col items-center">
-                <p className="font-bold">{timeLeft.hours}</p>
+                <p className="font-bold">{timeLeft?.hours}</p>
                 <p>hrs</p>
             </div>
             <div className="flex flex-col items-center">
-                <p className="font-bold">{timeLeft.minutes}</p>
+                <p className="font-bold">{timeLeft?.minutes}</p>
                 <p>min</p>
             </div>
             <div className="flex flex-col items-center">
-                <p className="font-bold">{timeLeft.seconds}</p>
+                <p className="font-bold">{timeLeft?.seconds}</p>
                 <p>seg</p>
             </div>
         </div>

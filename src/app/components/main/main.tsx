@@ -10,7 +10,7 @@ export function Main() {
                     <button className="bg-azulescuro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white hover:shadow-lg">Clique e comece sua jornada!</button>
                 </a>
             </div>
-                <iframe className="flex-1 items-center justify-center w-full lg:flex-1 lg:h-3/5" src="https://www.youtube.com/embed/mX_BViO9OV4?si=nHhODwQTDqOkHHc2" title="YouTube video player" allow="accelerometer; autoplay; web-share"></iframe>
+                <iframe className="flex-1 items-center justify-center w-full lg:flex-1 lg:h-3/5" src="https://www.youtube.com/embed/gi2fAAvAWUo?si=LGbyEhulGR1QisY2" title="YouTube video player" allow="accelerometer; autoplay; web-share"></iframe>
         </div>
     )
 }
