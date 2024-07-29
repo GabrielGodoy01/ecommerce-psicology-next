@@ -15,7 +15,7 @@ export function Promotion() {
                     <span className="lg:text-2xl xl:text-3xl text-lg md:text-xl"> por </span>
                     <span className="lg:text-4xl xl:text-5xl text-2xl md:text-3xl font-bold">R$29,90</span>
                 </div>
-                <a href="https://google.com" target="_blank">
+                <a href="https://pay.hotmart.com/J94629897J" target="_blank">
                     <button className="bg-azulclaro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white hover:shadow-lg">COMPRE AGORA</button>
                 </a>
                 <div className="py-4 md:py-8">

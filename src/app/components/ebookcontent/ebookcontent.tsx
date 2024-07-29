@@ -29,7 +29,7 @@ export function EbookContent() {
                     <li>Quizzes especializados para orientar sua escolha terapêutica.</li>
                     <li>Ferramentas práticas para aplicar no seu dia a dia.</li>
                 </ul>
-                <a href="https://google.com" target="_blank" className="w-full">
+                <a href="https://pay.hotmart.com/J94629897J" target="_blank" className="w-full">
                     <button className="bg-azulescuro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white hover:shadow-lg">
                         Baixe o eBook
                     </button>
