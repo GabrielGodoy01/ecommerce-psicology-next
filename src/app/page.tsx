@@ -15,11 +15,11 @@ export default function Landing() {
         <div className="flex items-center justify-center w-full h-screen bg-azulclaro">
           <Main />
         </div>
-        <div className="flex items-center justify-center w-full lg:h-screen bg-white">
-          <ForYou />
-        </div>
-        <div id="section-1" className="flex items-center justify-center w-full lg:h-screen bg-azulclaro">
+        <div id="section-1" className="flex items-center justify-center w-full lg:h-screen bg-white">
           <EbookContent />
+        </div>
+        <div className="flex items-center justify-center w-full bg-azulclaro">
+          <Promotion />
         </div>
         <div className="flex items-center justify-center w-full bg-azulclaro">
           <Testimonials />
@@ -27,15 +27,15 @@ export default function Landing() {
         <div className="flex items-center justify-center w-full bg-white">
           <Profissional />
         </div>
-        {/* <div className="flex items-center justify-center w-full bg-azulclaro">
-          <Contact />
-        </div> */}
-        <div className="flex items-center justify-center w-full bg-azulclaro">
-          <Promotion />
+        <div className="flex items-center justify-center w-full lg:h-screen bg-azulclaro">
+          <ForYou />
         </div>
         <div className="flex items-center justify-center w-full bg-azulclaro">
           <Footer />
         </div>
+        {/* <div className="flex items-center justify-center w-full bg-azulclaro">
+          <Contact />
+        </div> */}
       </div>
     </main>
   )

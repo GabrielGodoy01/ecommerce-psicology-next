@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     { name: 'Gabriel de Godoy Braz', url: 'https://github.com/GabrielGodoy01' }
   ],
   openGraph: {
-    images: ['https://live.staticflickr.com/65535/53187030206_c6b583c824_c.jpg'],
+    images: ['https://live.staticflickr.com/65535/53889274906_cd83c0c8a2_c.jpg'],
     type: 'website',
     locale: 'pt_BR',
     siteName: 'Navegando pela Ansiedade',
     title: 'Navegando pela Ansiedade',
     description: 'Descubra soluções terapêuticas personalizadas para a ansiedade em nosso eBook, ajudando você a encontrar a terapia perfeita para suas necessidades.',
-    url: '',
+    url: 'https://live.staticflickr.com/65535/53889274906_cd83c0c8a2_c.jpg',
   },
   robots: {
     follow: true,

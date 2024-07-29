@@ -22,7 +22,7 @@ export function ForYou() {
         <div className="flex flex-col items-center justify-center max-w-screen-2xl h-full box-border py-10 lg:py-0 mx-4">
             <h1 className="font-normal lg:text-3xl xl:text-4xl text-xl md:text-2xl">Para quem é o ebook</h1>
             <h1 className="font-bold lg:text-4xl xl:text-5xl text-2xl md:text-3xl text-azulescuro">Navegando pela Ansiedade<span className="text-black font-normal">?</span></h1>
-            <div className="grid grid-cols-1 md:auto-cols-auto lg:grid-cols-3 gap-8 pt-10 lg:mt-20">
+            <div className="grid grid-cols-1 md:auto-cols-auto lg:grid-cols-3 gap-10 pt-10 lg:mt-20">
                 <Feature
                     icon={cabeca}
                     text="Para aqueles que desejam desvendar as complexidades de seus pensamentos, descobrindo terapias que se alinham à sua mente única."
