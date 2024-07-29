@@ -20,8 +20,14 @@ export function Profissional() {
                 <h2 className="w-full font-bold text-center md:text-left lg:text-4xl xl:text-5xl text-3xl md:text-3xl text-azulescuro pt-2 md:pt-4">
                     Psicólogo Vinícius Sing
                 </h2>
-                <p className="text-base text-justify py-4 lg:py-9">
-                    Psicólogo com experiência em diversas áreas. Ele afirma: “Citação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livroCitação dele sobre o livro”.
+                <p className="text-base text-justify pt-4 lg:pt-9">
+                    Nascido na cidade de São Paulo, Vinícius é um talentoso e apaixonado profissional de psicologia, pronto para transformar vidas! Com vasta experiência nas áreas clínica e escolar, Vinícius é um <b>especialista em ajudar pessoas a superarem obstáculos e conquistarem seus sonhos</b>.
+                </p>
+                <p className="text-base text-justify py-2"> 
+                    Vinícius está atualmente se especializando em <b>clínica analítico-comportamental no prestigiado instituto PARADIGMA</b>. Ele é a escolha perfeita para quem procura um profissional dedicado ao bem-estar e ao crescimento pessoal.
+                </p>
+                <p className="text-base text-justify pb-4 lg:pb-9"> 
+                    &quot;Esta obra é uma oportunidade imperdível para expandir seu conhecimento e explorar mais a fundo o universo das terapias psicológicas. Não deixe escapar a chance de compreender melhor sua mente e encontrar caminhos para uma vida menos ansiosa!&quot;
                 </p>
                 <a href="https://chat.whatsapp.com/CnaNlAjYWbl6fUyt5lARdr" target="_blank" className="w-full">
                     <button className="bg-azulescuro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white hover:shadow-lg">
