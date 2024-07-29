@@ -7,7 +7,7 @@ function Feature({ icon, text } : { icon: StaticImageData, text: string }) {
     return (
         <div className="flex items-center justify-center relative bg-azulescuro rounded-2xl py-8 md:py-20 px-2">
             <div className="w-16 h-16 sm:w-18 sm:h-18 lg:w-24 lg:h-24 bg-white rounded-full absolute top-0 left-20 -translate-y-1/2 flex items-center justify-center">
-                <Image className="p-2 w-full h-full object-contain"
+                <Image className="p-4 w-full h-full object-contain"
                     src={icon}
                     alt="Ícone"
                 />
@@ -20,8 +20,8 @@ function Feature({ icon, text } : { icon: StaticImageData, text: string }) {
 export function ForYou() {
     return (
         <div className="flex flex-col items-center justify-center max-w-screen-2xl h-full box-border py-10 lg:py-0 mx-4">
-            <h1 className="font-bold lg:text-4xl xl:text-5xl text-2xl md:text-3xl font-bold">É para você?</h1>
-            <h1 className="font-bold lg:text-4xl xl:text-5xl text-2xl md:text-3xl text-azulescuro">Para quem é o ebook?</h1>
+            <h1 className="font-normal lg:text-3xl xl:text-4xl text-xl md:text-2xl">Para quem é o ebook</h1>
+            <h1 className="font-bold lg:text-4xl xl:text-5xl text-2xl md:text-3xl text-azulescuro">Navegando pela Ansiedade<span className="text-black font-normal">?</span></h1>
             <div className="grid grid-cols-1 md:auto-cols-auto lg:grid-cols-3 gap-8 pt-10 lg:mt-20">
                 <Feature
                     icon={cabeca}

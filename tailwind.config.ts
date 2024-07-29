@@ -10,6 +10,7 @@ const config: Config = {
     colors: {
       'transparent': 'transparent',
       'white': '#ffffff',
+      'black': '#000000',
       'azulclaro' : '#A5C0DE',
       'azulescuro' : '#1E4B64'
     },
