@@ -29,7 +29,7 @@ export function Profissional() {
                 <p className="text-base text-justify pb-4 lg:pb-9"> 
                     &quot;Esta obra é uma oportunidade imperdível para expandir seu conhecimento e explorar mais a fundo o universo das terapias psicológicas. Não deixe escapar a chance de compreender melhor sua mente e encontrar caminhos para uma vida menos ansiosa!&quot;
                 </p>
-                <a href="https://chat.whatsapp.com/CnaNlAjYWbl6fUyt5lARdr" target="_blank" className="w-full">
+                <a href="" target="_blank" className="w-full">
                     <button className="bg-azulescuro rounded-xl h-16 w-full cursor-pointer text-xl font-bold text-white hover:shadow-lg">
                         Entre em contato
                     </button>
