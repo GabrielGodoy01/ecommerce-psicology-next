@@ -23,7 +23,7 @@ export function EbookContent() {
                     Explore &quot;Navegando pela Ansiedade: Encontre sua Terapia&quot; e desvende os segredos para superar a ansiedade. Este ebook condensa sabedoria prática em terapias de ansiedade, proporcionando insights valiosos para uma jornada de cura personalizada. O conteúdo inclui:
                 </p>
                 <ul className="text-lg text-gray-700 list-disc pl-6 space-y-2">
-                    <li>Mais de 50 páginas de conteúdo rico e prático.</li>
+                    <li>Mais de 40 páginas de conteúdo rico e prático.</li>
                     <li>Guias personalizados para encontrar a terapia perfeita para você.</li>
                     <li>Exploração profunda das diferentes abordagens para tratar a ansiedade.</li>
                     <li>Quizzes especializados para orientar sua escolha terapêutica.</li>
